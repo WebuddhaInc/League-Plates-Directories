@@ -1,0 +1,19 @@
+{
+  "name": "webuddha/plates",
+  "description": "This is an alternate plates engine that adds additional directory fallback procedures.",
+  "license": "MIT",
+  "authors" : [
+    {
+    "name": "David Hunt",
+    "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Webuddha\\Plates\\": "src"
+    }
+  },
+  "require": {
+    "league/plates": "@stable",
+  }
+}
